@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="28.2.7" pages="4">
   <diagram name="Full DS" id="7uXYpK4mZ98yh_pQGzSL">
-    <mxGraphModel dx="741" dy="1961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="969" dy="2113" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,9 +219,11 @@
             <mxPoint x="15" y="16.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="98-L-kk6dMuK9YEJMkiv-48" value="" style="fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
-          <mxGeometry x="1329.75" y="41" width="227.5" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="" tooltip="docker run --rm europe-west9-docker.pkg.dev/clean-avatar-466709-a0/vision-process/tracking:v2.0 \&#xa;--input gs://video-to-pipeline/detections/cleaned_detections_68b34cdeec05744a0d993703.csv \&#xa;--match-id 68b34cdeec05744a0d993703 \&#xa;--homography gs://video-to-pipeline/detections/homography/homography_matrices_68b34cdeec05744a0d993703.npy \&#xa;--fps 25" id="98-L-kk6dMuK9YEJMkiv-48">
+          <mxCell style="fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
+            <mxGeometry x="1329.75" y="41" width="227.5" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="98-L-kk6dMuK9YEJMkiv-49" value="&lt;font color=&quot;#000000&quot;&gt;vision-process/tracking:v2.0&lt;/font&gt;&lt;br&gt;Artifact Registry" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIxLjk5OTAwMDU0OTMxNjQwNiIgaGVpZ2h0PSIyMC4zOTM5OTkwOTk3MzE0NDUiIHZpZXdCb3g9IjAgMCAyMS45OTkwMDA1NDkzMTY0MDYgMjAuMzkzOTk5MDk5NzMxNDQ1Ij4mI3hhOwk8c3R5bGUgdHlwZT0idGV4dC9jc3MiPiYjeGE7CS5zdDB7ZmlsbDojNDI4NWY0O2ZpbGwtcnVsZTpldmVub2RkfSYjeGE7CTwvc3R5bGU+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTUgMHYyLjQ1OEwxLjk5OSA0LjE5N3YxMi4wMUw1IDE3LjkzOHYyLjQ1NmwtNS0yLjg4N1YyLjg4NnptMTIgMGw0Ljk5OSAyLjg4NnYxNC42MjFMMTcgMjAuMzk0di0yLjQ1NmwzLTEuNzMxVjQuMTk3bC0zLTEuNzM5em0tNi4wMTYgNi42NzNsMi45NDctMS42NDYtMi45NDctMS42NDYtMi45NDcgMS42NDZ6bTMuMjY4LTEuMDk2bC0yLjg3MSAxLjY3OHYzLjI4N2wyLjg3MS0xLjY3NnpNNy43NzMgOC44NjZsMi44NzEgMS42NzRWNy4yNTZMNy43NzMgNS41Nzd6bS0uMjEyIDMuODc4bDIuODItMS42NDYtMi44Mi0xLjY0Ni0yLjgyIDEuNjQ2em0zLjEzMi0xLjA5OGwtMi44NzEgMS42Nzh2My4yODdsMi44NzEtMS42NzZ6bS02LjI2NCAzLjI4OUw3LjMgMTYuNjA5di0zLjI4NWwtMi44NzEtMS42Nzl6bTEwLjAyOS0yLjE5MWwyLjgyLTEuNjQ2LTIuODItMS42NDYtMi44MiAxLjY0NnptMy4xMzItMS4wOThsLTIuODcxIDEuNjc4djMuMjg3bDIuODcxLTEuNjc2em0tNi4yNjQgMy4yODlsMi44NzEgMS42NzR2LTMuMjg1bC0yLjg3MS0xLjY3OXoiLz4mI3hhOzwvc3ZnPg==;" parent="98-L-kk6dMuK9YEJMkiv-48" vertex="1">
           <mxGeometry width="30" height="27" relative="1" as="geometry">
             <mxPoint x="15" y="16.5" as="offset" />
